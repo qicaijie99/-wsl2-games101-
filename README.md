@@ -78,7 +78,7 @@ sudo apt-get install -y libpng-dev libopenexr-dev libgstreamer-plugins-base1.0-d
 <a href="https://github.com/opencv/opencv/releases/tag/4.12.0" target="_blank">OpenCV 4.12.0 Release</a>
 
 # 解压源码（将压缩包下载到本地后，需要复制到当前Ubuntu里的位置再进行解压）
-unzip opencv.zip
+sudo unzip opencv.zip
 
 # 创建构建目录
 cd opencv-xxx
