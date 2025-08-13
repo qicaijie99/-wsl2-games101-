@@ -11,6 +11,7 @@
 - 至少 8GB RAM（OpenCV编译推荐）
 - 20GB 可用磁盘空间
 - 稳定网络连接
+- 确保已启用windows虚拟化功能
 
 ## 1. 安装WSL和Ubuntu
 
