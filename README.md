@@ -126,11 +126,11 @@ pkg-config --cflags opencv4
 ```bash
 #运行作业1
 将#include<Eigen/Eigen>改为<eigen3/Eigen/Dense>,rasterizer.hpp增加#include <map>
- /home/作业1$ mkdir build
- /home/作业1$ cd build/
- /home/作业1/build$ cmake ..
- /home/作业1/build$ make
- /home/作业1/build$ ./XXX
+ /usr/games/作业1$ mkdir build
+ /usr/games/作业1$ cd build/
+ /usr/games/作业1/build$ cmake ..
+ /usr/games/作业1/build$ make
+ /usr/games/作业1/build$ ./XXX
 ```
 ## 常见问题解决
 
