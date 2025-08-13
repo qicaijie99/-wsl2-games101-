@@ -82,14 +82,16 @@ sudo unzip opencv.zip
 
 # 创建构建目录
 cd opencv-xxx
-mkdir build && cd build
+sudo mkdir build && cd build
 
 # 配置CMake
+sudo cmake -D CMAKE_BUILD_TYPE=Release -D OPENCV_GENERATE_PKGCONFIG=ON -D CMAKE_INSTALL_PREFIX=/usr/local .. 
+或者逐步：
 sudo cmake \
   -D CMAKE_BUILD_TYPE=RELEASE \
   -D CMAKE_INSTALL_PREFIX=/usr/local \
   -D OPENCV_GENERATE_PKGCONFIG=ON \
-  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib-4.9.0/modules \
+  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib-4.12.0/modules \
   -D WITH_GTK=ON \
   -D WITH_FFMPEG=ON \
   -D BUILD_EXAMPLES=OFF ..
