@@ -17,7 +17,7 @@
 
 ```bash
 # 以管理员身份打开CMD/PowerShell
-wsl --install              # 安装WSL基础组件
+wsl --install              # 安装WSL基础组件，多数电脑默认就会安装ubuntu
 wsl --set-default-version 2  # 设置为WSL 2版本
 
 # 查看可用Linux发行版
@@ -33,7 +33,7 @@ wsl -d Ubuntu-22.04
 ## 2. 安装基础开发工具
 
 ```bash
-# 更新软件源
+# 更新软件源 重要！
 sudo apt-get update && sudo apt-get upgrade -y
 
 # 安装G++编译器和构建工具
