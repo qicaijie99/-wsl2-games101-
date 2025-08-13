@@ -115,11 +115,17 @@ source /etc/bash.bashrc  # 立即生效
 # 验证配置
 pkg-config --cflags opencv4
 ```
+## 6. vscode远程连接
 
-## 6. 验证安装
+```bash
+#安装vscode，在插件里搜索wsl即可
+```
+
+## 7. 验证安装
 
 ```bash
 #运行作业1
+将#include<Eigen/Eigen>改为<eigen3/Eigen/Dense>,rasterizer.hpp增加#include <map>
  /home/作业1$ mkdir build
  /home/作业1$ cd build/
  /home/作业1/build$ cmake ..
